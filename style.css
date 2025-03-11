@@ -51,6 +51,7 @@ body {
 #main-content {
   min-height: 300px;
   width: 715px;
+  color: #253039;
   margin: 0 auto;
   padding:15px;
   animation: fadeIn 1s ease-in-out;
