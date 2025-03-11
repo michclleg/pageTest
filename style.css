@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(to bottom, #b2b9bf, #3F5160;
+	background-image: linear-gradient(to bottom, #b2b9bf, #3F5160);
 }
 
 #header {
@@ -58,38 +58,3 @@ body {
 	from{opacity: 0; transform: translateY(20px);}
 	to{opacity:1; transform:translateY(0);}
 }
-
-/**
-.gallery {
-	display:grid;
-	grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-	gap: 15px;
-	grid-auto-flow: dense;
-	margin:auto;
-}**/
-.photo {
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	height:100%;
-}
-
-.photo img{
-	width: auto;
-	height: 300px;
-	object-fit: cover;
-	border-radius:8px;
-	transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.photo:hover img{
-    transform: scale(1.05);
-    opacity: 0.8;
-}
-/**
-@media (max-width: 600px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-}
-**/
