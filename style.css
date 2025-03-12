@@ -55,6 +55,7 @@ body {
   margin: 0 auto;
   padding:15px;
   animation: fadeIn 1s ease-in-out;
+  background-color:#718FA4;
 }
 
 @keyframes fadeIn{
