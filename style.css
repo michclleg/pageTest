@@ -67,15 +67,15 @@ body {
 	grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 	gap: 15px;
 	grid-auto-flow: dense;
-	margin:auto;
+	margin: auto;
 }
 	
-.hphoto img{
+.hphoto img {
 	width:auto;
 	height:300px;
 }
 
-.lphoto img{
+.lphoto img {
 	width:300px;
 	height:auto;
 }
