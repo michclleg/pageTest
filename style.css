@@ -75,13 +75,13 @@ body {
 	to{opacity:1; transform:translateY(0);}
 }
 
-.gallery.hphoto {
+.gallery {
 	display:grid;
 	grid-template-columns: 300px 300px 300px;
 	grid-auto-rows:auto;
 	gap: 10px;
 	margin: auto;
-	max-width:900px;
+	max-width: 900px;
 }
 
 .lphoto img {
@@ -94,8 +94,6 @@ body {
 .hphoto img {
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
-}
-.hphoto {
 	max-width: 300px;
 }
 
