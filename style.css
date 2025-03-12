@@ -100,5 +100,4 @@ body {
 .hphoto:hover img, 
 .lphoto:hover img {
     transform: scale(1.05);
-    opacity: 0.8;
 }
