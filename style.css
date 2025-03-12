@@ -84,11 +84,13 @@ body {
 	max-width:800px;
 }
 
+.hphoto img{
+	height: 200px;
+}
+
 .hphoto img,
 .lphoto img {
 	object-fit: cover;
-	height:100%;
-	width:100%;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
