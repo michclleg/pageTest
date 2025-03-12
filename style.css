@@ -87,10 +87,12 @@ body {
 .lphoto img {
 	width: 900px;
 	height:auto;
+	object-fit: cover;
+	transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.hphoto img,
-.lphoto img {
+.hphoto img {
+	max-width: 300px;
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
