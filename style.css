@@ -75,9 +75,9 @@ body {
 	to{opacity:1; transform:translateY(0);}
 }
 
-.gallery {
+.gallery.lphoto {
 	display:grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-auto-rows:auto;
 	gap: 10px;
 	margin: auto;
@@ -90,16 +90,6 @@ body {
 	height:100%;
 	width:100%;
 	transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.hphoto {
-	display:flex;
-	grid-column: span 3;
-}
-
-.lphoto {
-	display: flex;	
-	grid-column: span 1;
 }
 
 .hphoto:hover img, 
