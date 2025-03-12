@@ -118,7 +118,6 @@ body {
 	opacity: 0.8;
 }
 
-
 video {
 	display:block;
 	width:100%;
@@ -143,4 +142,10 @@ video {
 video:hover {
     transform: scale(1.02);
     opacity: 0.95;
+}
+
+.list {
+	background-color:#718FA4;
+	border-left:5px solid #3F5160;
+	border-radius:8px;
 }
