@@ -85,10 +85,8 @@ body {
 
 .hphoto,
 .lphoto {
-	display: flex;
-	
+	display: flex;	
 }
-
 
 .hphoto:hover img, 
 .lphoto:hover img {
