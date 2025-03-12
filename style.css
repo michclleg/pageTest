@@ -17,7 +17,6 @@ body {
 }
 
 #main-nav {
-  background-color:#3F5160;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
   font-family: Garamond, serif;
   display: flex;
@@ -51,11 +50,10 @@ body {
 #main-content {
   min-height: 300px;
   width: 715px;
-  color: #253039;
   margin: 0 auto;
   padding:15px;
   animation: fadeIn 1s ease-in-out;
-  background-color:#718FA4;
+  color: #C6D3CD;
 }
 
 @keyframes fadeIn{
@@ -93,4 +91,9 @@ body {
 .lphoto:hover img {
     transform: scale(1.05);
     opacity: 0.8;
+}
+
+.back {
+	background-color: #3F5160;
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
