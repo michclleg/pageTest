@@ -69,7 +69,13 @@ body {
 	grid-auto-flow: dense;
 	margin:auto;
 	
-.photo {
-	width:25%;
+.hphoto {
+	width:auto;
+	height:300px;
+}
+
+.lphoto{
+	width:300px;
+	height:auto;
 }
 }
