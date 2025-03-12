@@ -86,7 +86,7 @@ body {
 
 .lphoto img {
 	width: 900px;
-	height:auto;
+	height: auto;
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
