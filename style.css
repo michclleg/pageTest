@@ -85,14 +85,7 @@ body {
 	max-width:80px;
 }
 
-.hphoto img {
-	justify-content:center;
-	object-fit: cover;
-	height:100%;
-	width:100%;
-	transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
+.hphoto img,
 .lphoto img {
 	object-fit: cover;
 	height:100%;
@@ -103,13 +96,13 @@ body {
 .hphoto {
 	display:flex;
 	grid-column: span 1.5;
-	 grid-row: span 1;
-	
+	grid-row: span 1;
 }
+
 .lphoto {
 	display: flex;	
 	grid-column: span 1;
-	 grid-row: span 1.5;
+	grid-row: span 1.5;
 }
 
 .hphoto:hover img, 
