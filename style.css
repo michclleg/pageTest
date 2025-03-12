@@ -25,6 +25,7 @@ body {
   justify-content: center;
   padding: 20px 0;
   animation: glow 2s infinite alternate;
+  border: 2px solid #3a454f;
 }
 
 #main-nav ul {
@@ -77,9 +78,9 @@ body {
 	to{opacity:1; transform:translateY(0);}
 }
 @keyframes glow{
-	0%{box-shadow: 0 0 5px #1F51FF;}
-	50%{box-shadow: 0 0 15px #1F51FF;}
-	100%{box-shadow: 0 0 5px #1F51FF;}
+	0%{box-shadow: 0 0 5px #3a454f;}
+	50%{box-shadow: 0 0 15px #3a454f;}
+	100%{box-shadow: 0 0 5px #3a454f;}
 }
 
 .gallery {
