@@ -82,22 +82,24 @@ body {
 	gap: 10px;
 	margin: auto;
 	max-width: 900px;
+	padding:10px;
 }
 
-.lphoto {
+.lphoto img{
 	width: 900px;
 	height: auto;
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.hphoto {
+.hphoto img{
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 	max-width: 300px;
 }
 
-.hphoto:hover, 
-.lphoto:hover {
+.hphoto:hover img, 
+.lphoto:hover img{
     transform: scale(1.05);
+	opacity: 0.8;
 }
