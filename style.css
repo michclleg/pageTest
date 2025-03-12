@@ -68,4 +68,8 @@ body {
 	gap: 15px;
 	grid-auto-flow: dense;
 	margin:auto;
+	
+.photo img{
+	width:25%;
+}
 }
