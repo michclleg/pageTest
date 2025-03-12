@@ -73,14 +73,14 @@ body {
 .hphoto img {
 	justify-content:center;
 	object-fit: cover;
+	height:300px;
 	width:auto;
-	height:150px;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .lphoto img {
 	object-fit: cover;
-	width:150px;
+	width:300px;
 	height:auto;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
