@@ -97,7 +97,7 @@ body {
 	max-width: 300px;
 }
 
-.hphoto:hover img, 
-.lphoto:hover img {
+.hphoto:hover, 
+.lphoto:hover {
     transform: scale(1.05);
 }
