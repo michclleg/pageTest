@@ -70,12 +70,12 @@ body {
 	margin:auto;
 }
 	
-.hphoto {
+.hphoto img{
 	width:auto;
 	height:300px;
 }
 
-.lphoto{
+.lphoto img{
 	width:300px;
 	height:auto;
 }
