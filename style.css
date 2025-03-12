@@ -92,9 +92,11 @@ body {
 }
 
 .hphoto img {
-	max-width: 300px;
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.hphoto {
+	max-width: 300px;
 }
 
 .hphoto:hover img, 
