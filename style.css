@@ -85,21 +85,21 @@ body {
 	padding:10px;
 }
 
-.lphoto img{
+.lphoto img {
 	width: 900px;
 	height: auto;
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.hphoto img{
+.hphoto img {
 	object-fit: cover;
 	transition: transform 0.3s ease, opacity 0.3s ease;
 	max-width: 300px;
 }
 
 .hphoto:hover img, 
-.lphoto:hover img{
+.lphoto:hover img {
     transform: scale(1.05);
 	opacity: 0.8;
 }
