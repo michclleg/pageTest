@@ -12,7 +12,6 @@ body {
 #header h1{
 	font-size: 3em;
 	font-family: Garamond, serif;
-	animation: fadeIn 1s ease-in-out;
 	color: #3F5160;
 	margin:auto;
 }
@@ -55,6 +54,7 @@ body {
   color: #253039;
   margin: 0 auto;
   padding:15px;
+  animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn{
@@ -68,6 +68,7 @@ body {
 	gap: 15px;
 	grid-auto-flow: dense;
 	margin:auto;
+}
 	
 .hphoto {
 	width:auto;
