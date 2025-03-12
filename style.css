@@ -77,16 +77,16 @@ body {
 
 .gallery.hphoto {
 	display:grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 300px 300px 300px;
 	grid-auto-rows:auto;
 	gap: 10px;
 	margin: auto;
-	max-width:800px;
+	max-width:900px;
 }
 
 .lphoto img {
-	height: 100px;
-	width: auto;
+	width: 900px;
+	height:auto;
 }
 
 .hphoto img,
