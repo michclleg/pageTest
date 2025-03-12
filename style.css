@@ -77,12 +77,11 @@ body {
 
 .gallery {
 	display:grid;
-	grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-	grid-auto-rows:150px;
-	gap: 15px;
-	grid-auto-flow: dense;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows:auto;
+	gap: 10px;
 	margin: auto;
-	max-width:80px;
+	max-width:800px;
 }
 
 .hphoto img,
@@ -95,14 +94,12 @@ body {
 
 .hphoto {
 	display:flex;
-	grid-column: span 1.5;
-	grid-row: span 1;
+	grid-column: span 3;
 }
 
 .lphoto {
 	display: flex;	
 	grid-column: span 1;
-	grid-row: span 1.5;
 }
 
 .hphoto:hover img, 
