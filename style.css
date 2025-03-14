@@ -9,10 +9,15 @@ body {
 	display:flex;
 	justify-content:space-evenly;
 	margin: auto;
-	padding: 10px;
-	
+	padding: 10px;	
 }
 
+.banner ul {
+	list-style-type: none;
+	padding:0;
+	display: flex;
+	
+}
 .banner li {
 	font-family: Garamond, serif;
 	border: 2px solid #d4778a;
@@ -29,7 +34,6 @@ body {
 	height: auto;
 	transition: opacity 1s ease 0;
 }
-
 
 .banner:hover img {
 	opacity: 1;
