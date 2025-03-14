@@ -1,8 +1,6 @@
 body {
   background-attachment: fixed;
-  background-size: 100% 200%;
-  background-position: bottom;
-  background-image: linear-gradient(to bottom, white, #d4778a);
+  background-color: white;
 }
 
 .banner {
@@ -21,10 +19,12 @@ body {
 }
 .banner li {
 	font-family: Garamond, serif;
-	border: 2px solid #d4778a;
+	background-color: #d4778a;
+	color: white;
 }
 
 .banner ul li a {
+	padding: 10px 25px;
 	display: block;
 	transition: background 0.4s ease;
 }
@@ -41,6 +41,12 @@ body {
 	background-color: #d4778a;
 }
 
+#main-content {
+	width: 900px;
+	height: 500px;
+	background-image: linear-gradient(to bottom, white, #d4778a);	
+}
+
 .nameoverlay img {
 	-webkit-mask-image:url(images/name.png);
 	mask-image: url(images/name.png);
@@ -51,5 +57,5 @@ body {
 
 @keyframes fadeIn {
 	from{opacity: 0; transform: translateY(20px);}
-	to{opacity:1; transform:translateY(0);}
+	to{opacity:1; transform: translateY(0px);}
 }
