@@ -30,10 +30,11 @@ body {
 }
 
 .banner img {
-	opacity: 0;
 	width: 150px;
 	height: auto;
-    animation: fadeIn 1s ease-in-out;
+}
+.banner:hover img {
+	animation: fadeIn 1s ease-in-out;
 }
 
 .banner:hover ul li a {
