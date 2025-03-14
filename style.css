@@ -21,9 +21,8 @@ body {
 	opacity: 0.5;
 }
 
-.nameoverlay {
+.nameoverlay img {
 	-webkit-mask-image:url("images/name.png");
 	mask-image: url("images/name.png");
 	mask-repeat: no-repeat;
-	
 }
