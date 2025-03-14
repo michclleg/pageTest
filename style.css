@@ -4,7 +4,7 @@ body {
 }
 
 #nav-bar {
-	background-color:#ffecf5; 
+	background-color:white; 
 	max-height:100px;
 	display: flex;
 	margin: auto;
@@ -53,7 +53,7 @@ body {
 }
 
 #nav-bar ul li a:hover {
-	background-color: #f9caed;
+	background:radial-gradient(circle,#f9caed,white);
 }
 
 @keyframes glow{
