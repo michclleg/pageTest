@@ -10,16 +10,34 @@ body {
 	justify-content:space-between;
 	margin: auto;
 	padding: 10px;
-	transition: opacity 2.0s ease;
 	
 }
-.banner img {
-	width: 150px;
-	height: auto;
+
+.banner ul {
+	justify-content: center;
+	padding: 20px 20px;	
+	font-family: Garamond, serif;
 }
 
+.banner ul li a {
+	display: block;
+	padding: 10px 25px;
+	transition: background 0.4s ease;
+}
+
+.banner img {
+	opacity: 0;
+	width: 150px;
+	height: auto;
+	transition: opacity 1s ease 0;
+}
+
+
 .banner:hover img {
-	opacity: 0.5;
+	opacity: 1;
+}
+.banner:hover ul li a {
+	background-color: #d4778a;
 }
 
 .nameoverlay img {
