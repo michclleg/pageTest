@@ -1,27 +1,25 @@
 body {
   background-attachment: fixed;
-  background-size:cover;
+  background-size: 100;
   background-image: linear-gradient(to bottom, white, #d4778a);
 }
 
 .banner {
 	background-color:white;
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-evenly;
 	margin: auto;
 	padding: 10px;
 	
 }
 
-.banner ul {
-	justify-content: center;
-	padding: 20px 20px;	
+.banner li {
 	font-family: Garamond, serif;
+	border: 2px solid #d4778a;
 }
 
 .banner ul li a {
 	display: block;
-	padding: 10px 25px;
 	transition: background 0.4s ease;
 }
 
