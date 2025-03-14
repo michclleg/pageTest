@@ -1,7 +1,7 @@
 body {
   background-attachment: fixed;
   background-size:cover;
-  background-image: linear-gradient(to bottom, #b2b9bf, #3F5160);
+  background-image: linear-gradient(to bottom, white, #b2b9bf, #3F5160);
 }
 
 .banner {
