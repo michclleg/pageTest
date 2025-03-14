@@ -1,6 +1,6 @@
 body {
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #d4778a, #9a3d4c);	
+  background-image: linear-gradient(to bottom, #a8ae68, #edddbb, #f9caed);	
 }
 
 #nav-bar {
@@ -8,6 +8,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	margin: auto;
+	border: 2px solid #e5b7c1;
 	padding: 10px;	
 }
 
@@ -21,7 +22,7 @@ body {
 #nav-bar li {
 	font-family: Garamond, serif;
 	background-color: white;
-	padding: 10px 10px;
+	padding: 10px 15px;
 	transition: background 0.6s ease;
 }
 
