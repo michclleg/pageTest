@@ -6,8 +6,8 @@ body {
 
 .banner {
 	background-color:white;
-	display:grid;
-	grid-template-columns: 150px 1fr 150px;
+	display:flex;
+	justify-content: space-between;
 	margin: auto;
 	padding: 10px;
 }
@@ -17,7 +17,6 @@ body {
 }
 
 .banner:hover img {
-	transform: scale(2);
 	opacity: 0.5;
 }
 
