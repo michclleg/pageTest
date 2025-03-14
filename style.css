@@ -1,6 +1,7 @@
 body {
   background-attachment: fixed;
-  background-size: 100;
+  background-size: 100% 200%;
+  background-position: bottom;
   background-image: linear-gradient(to bottom, white, #d4778a);
 }
 
@@ -32,7 +33,7 @@ body {
 	opacity: 0;
 	width: 150px;
 	height: auto;
-	transition: opacity 1s ease 0;
+	transition: opacity 2s ease 0;
 }
 
 .banner:hover img {
@@ -46,6 +47,6 @@ body {
 	-webkit-mask-image:url(images/name.png);
 	mask-image: url(images/name.png);
 	mask-repeat: no-repeat;
-	width: 250px;
+	width: auto;
 	height: auto;
 }
