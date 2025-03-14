@@ -42,6 +42,6 @@ body {
 	-webkit-mask-image:url(images/name.png);
 	mask-image: url(images/name.png);
 	mask-repeat: no-repeat;
-	width: 200px;
+	width: 250px;
 	height: auto;
 }
