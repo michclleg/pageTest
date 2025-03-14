@@ -6,7 +6,6 @@ body {
 #nav-bar {
 	background-color:white;
 	display: flex;
-	justify-content: space-evenly;
 	margin: auto;
 	border: 2px solid #e5b7c1;
 	padding: 10px;	
@@ -38,6 +37,15 @@ body {
 	height: auto;
 	object-fit: cover;
 }
+
+#nav-bar img:first-child {
+	margin-right:auto;
+}
+#nav-bar img:last-child {
+	margin-left:auto;
+}
+
+
 
 #nav-bar ul li a:hover {
 	background-color: #e5b7c1;
