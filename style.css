@@ -20,13 +20,13 @@ body {
 }
 #nav-bar li {
 	font-family: Garamond, serif;
-	background-color: #d49099;
+	background-color: white;
 	padding: 10px 10px;
-	color: #9a3d4c;
 	transition: background 0.6s ease;
 }
 
 #nav-bar ul li a {
+	color: #9a3d4c;
 	padding: 10px 15px;
 	display: block;
 	text-decoration: none;
@@ -38,8 +38,8 @@ body {
 	object-fit: cover;
 }
 
-#nav-bar li a:hover {
-	background-color: #c36c77;
+#nav-bar ul li a:hover {
+	background-color: #e5b7c1;
 }
 /**
 #main-content {
