@@ -41,7 +41,7 @@ body {
 #nav-bar li a:hover {
 	background-color: #c36c77;
 }
-
+/**
 #main-content {
 	height: 50%;
 	width: 100%;
@@ -64,3 +64,4 @@ body {
 	50%{opacity: 0.4;}
 	100%{opacity: 1;}
 }
+**/
