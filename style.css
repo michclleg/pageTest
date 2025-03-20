@@ -54,7 +54,7 @@ body {
 }
 
 #nav-bar ul li a:hover {
-	background:radial-gradient(circle,white,#f9caed);
+	background:radial-gradient(circle,white, rgba(0, 0, 0, 0.0));
 }
 
 @keyframes glow{
