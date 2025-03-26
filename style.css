@@ -58,9 +58,9 @@ body {
 }
 
 @keyframes glow{
-	0%{box-shadow: 0 0 5px #f9caed;}
-	50%{box-shadow: 0 0 15px #f9caed;}
-	100%{box-shadow: 0 0 5px #f9caed;}
+	0%{box-shadow: 0 0 10px #f9caed;}
+	50%{box-shadow: 0 0 25px #f9caed;}
+	100%{box-shadow: 0 0 10px #f9caed;}
 }
 
 /**
