@@ -59,19 +59,20 @@ body {
 
 #content{
 	display: flex;
+	width: 80%;
 }
 
 #side-bar {
 	background-color: #f9caed;
-	width: 100px;
-	height: 500px;
+	width: 200px;
+	height: 580px;
 }
 
 
 #main-content {
 	background-color: #f9caed;
-	width: 500px;
-	height: 500px;
+	width: auto;
+	height: 580px;
 	
 }
 
