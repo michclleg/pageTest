@@ -57,11 +57,11 @@ body {
 	background:radial-gradient(circle,white, rgba(0, 0, 0, 0.0));
 }
 
-#content{
+#content {
 	display: flex;
 }
 
-#side-bar {
+.side-bar {
 	background-color: #f9caed;
 	width: 200px;
 	height: 580px;
