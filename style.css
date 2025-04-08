@@ -119,6 +119,7 @@ body {
   height:75%;
   margin:auto;
   width:12%;
+  animation:glow 3s infinite alternate;
 }
 
 #sidebarl {
@@ -128,6 +129,7 @@ body {
   height:75%;
   margin:auto;
   width:12%;
+  animation:glow 3s infinite alternate;
 }
 
 #maintextbox:hover, 
