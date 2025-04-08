@@ -71,8 +71,10 @@ body {
   margin:auto;
   padding:20px;
   background-color:#f35594;
+  border-radius: 10px;
+  border: 2px solid #3a454f;
   box-shadow:0px 4px 10px rgba(0,0,0,0.2), inset 0px 4px 10px rgba(255,255,255,0.2);
-  background:radial-gradient(circle,white,rgba(0, 0, 0, 0.0));
+  background:radial-gradient(circle,white,rgba(255, 255, 255, 0.3));
   font-family:Garamond, serif;
   color:#f35594;
 }
@@ -84,6 +86,7 @@ body {
   box-shadow:0px 4px 10px rgba(0,0,0,0.2);
 }
 .longphoto {
+  margin:auto;
   max-width:920px;
 }
 
