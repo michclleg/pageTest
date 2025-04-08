@@ -1,6 +1,6 @@
 body {
   background-attachment: fixed;
-  background-image:url("..images/back.png");	
+  background-image:url("../images/back.png");	
 }
 /** Navigation Bar **/
 #nav-bar {
@@ -63,6 +63,7 @@ body {
   margin: auto;
   padding:25px;
   animation:fadeIn 1s ease-in-out;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 #maintextbox {
@@ -72,7 +73,7 @@ body {
   padding:20px;
   background-color:#f35594;
   border-radius: 10px;
-  border: 2px solid #3a454f;
+  border:2px solid #f35594;
   box-shadow:0px 4px 10px rgba(0,0,0,0.2), inset 0px 4px 10px rgba(255,255,255,0.2);
   background:radial-gradient(circle,white,rgba(255, 255, 255, 0.3));
   font-family:Garamond, serif;
@@ -98,7 +99,7 @@ body {
 
 .gallery {
   display:grid;
-  padding:10px;
+  padding:0px;
   max-width:900px;
   grid-template-columns:300px 300px 300px;
   grid-auto-rows:auto;
