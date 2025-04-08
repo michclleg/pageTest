@@ -62,6 +62,7 @@ body {
 #content {
 	width:70%;
 	margin: 0 auto;
+	padding:25px;
 }
 
 #maintextbox {
