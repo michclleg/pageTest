@@ -113,20 +113,18 @@ body {
 }
 
 #sidebarr {
-  position: fixed;
   padding:20px;
   right:0%;
-  background:radial-gradient(circle,white,rgba(255, 255, 255, 0.3));
+  background:radial-gradient(circle,#f9caed,white);
   height:75%;
   margin:auto;
   width:12%;
 }
 
 #sidebarl {
-  position: fixed;
   padding:20px;
   left:0%;
-  background:radial-gradient(circle,white,rgba(255, 255, 255, 0.3));
+  background:radial-gradient(circle,#f9caed,rgba(255, 255, 255, 0.3));
   height:75%;
   margin:auto;
   width:12%;
