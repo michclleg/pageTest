@@ -1,5 +1,5 @@
 body {
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-image:url("../images/back.png");	
 }
 /** Navigation Bar **/
@@ -63,7 +63,6 @@ body {
   margin: auto;
   padding:25px;
   animation:fadeIn 1s ease-in-out;
-  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 #maintextbox {
@@ -83,8 +82,10 @@ body {
 .longphoto img {
   width:920px;
   height:auto;
+  margin:auto;
   object-fit:cover;
   box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .longphoto {
   margin:auto;
