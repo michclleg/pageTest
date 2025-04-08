@@ -62,34 +62,32 @@ body {
   width:900px;
   margin: 0 auto;
   padding:25px;
+  animation:fadeIn 1s ease-in-out;
 }
 
 #maintextbox {
-  min-height:300px;
+  min-height:250px;
   width:auto;
-  margin:0 auto;
+  margin:auto;
   padding:20px;
   background-color:#f35594;
   box-shadow:0px 4px 10px rgba(0,0,0,0.2), inset 0px 4px 10px rgba(255,255,255,0.2);
   background:radial-gradient(circle,white,rgba(0, 0, 0, 0.0));
   font-family:Garamond, serif;
   color:#f35594;
-  animation:fadeIn 1s ease-in-out;
 }
 
 .longphoto img {
   width:920px;
   height:auto;
   object-fit:cover;
-  transition:transform 0.3s ease, opacity 0.3s ease;
+  box-shadow:0px 4px 10px rgba(0,0,0,0.2);
 }
 .longphoto {
   margin-left:auto;
   margin-right:auto;
   max-width:920px;
-  box-shadow:0px 4px 10px rgba(0,0,0,0.2);
 }
-
 
 .photo img {
   max-width:300px;
@@ -113,8 +111,8 @@ body {
   transition:0.3s ease-in-out;
 }
 
-.hphoto:hover img, 
-.lphoto:hover img {
+.photo:hover img, 
+.longphoto:hover img {
   transform:scale(1.05);
   opacity:0.8;
 }
