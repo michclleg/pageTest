@@ -80,7 +80,7 @@ body {
   height:auto;
   margin:auto;
   object-fit:cover;
-  border-radius:20px;
+  border-radius:10px;
   box-shadow:0px 4px 10px rgba(0,0,0,0.2);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .photo img {
-  border-radius:20px;
+  border-radius:10px;
   max-width:300px;
   object-fit:cover;
   transition:transform 0.3s ease, opacity 0.3s ease;
@@ -113,6 +113,7 @@ body {
   background-color: white;
   height: 100%;
   width: 20%;
+  border-radius:20px;
 }
 
 #sidebarl {
@@ -121,6 +122,7 @@ body {
   background-color: white;
   height: 100%;
   width: 20%;
+  border-radius:20px;
 }
 
 #maintextbox:hover {
