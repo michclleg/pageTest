@@ -114,7 +114,7 @@ body {
 
 #sidebarr {
   padding:20px;
-  right:0%;
+  right:1.5%;
   background:radial-gradient(circle,#f9caed,white);
   height:75%;
   margin:auto;
@@ -124,7 +124,7 @@ body {
 
 #sidebarl {
   padding:20px;
-  left:0%;
+  left:1.5%;
   background:radial-gradient(circle,#f9caed,rgba(255, 255, 255, 0.3));
   height:75%;
   margin:auto;
