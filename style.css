@@ -1,6 +1,6 @@
 body {
   background-attachment: fixed;
-  background-image: linear-gradient(to bottom, #a8ae68, #edddbb, #f9caed);	
+  background-image:url("images/back.jpg");	
 }
 /** Navigation Bar **/
 #nav-bar {
