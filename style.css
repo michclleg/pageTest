@@ -3,6 +3,10 @@ body {
   background-attachment:fixed;
   background-image:url("images/background.png");	
 }
+
+p h2 {
+  color:#f35594;	
+}
 /** Navigation Bar **/
 #nav-bar {
   background-color:white; 
