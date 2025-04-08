@@ -59,20 +59,22 @@ body {
 /** Main Content **/
 
 #content {
-  width:70%;
+  width:900px;
   margin: 0 auto;
   padding:25px;
 }
 
 #maintextbox {
-  min-height: 300px;
-  width: auto;
-  margin: 0 auto;
-  animation: fadeIn 1s ease-in-out;
+  min-height:300px;
+  width:auto;
+  margin:0 auto;
+  padding:20px;
   background-color:#f35594;
   box-shadow:0px 4px 10px rgba(0,0,0,0.2), inset 0px 4px 10px rgba(255,255,255,0.2);
   background:radial-gradient(circle,white,rgba(0, 0, 0, 0.0));
-  padding:20px;
+  font-family:Garamond, serif;
+  color:#f35594;
+  animation:fadeIn 1s ease-in-out;
 }
 
 .longphoto img {
